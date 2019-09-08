@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React Native Web Boilerplate 🥘
 
 A small and simple boilerplate for lazy people to create a universal Web/Native React app. How is that possible? By code sharing between both of those worlds. The most crucial element of this puzzle is a brilliant [React Native Web](https://github.com/necolas/react-native-web) library by [Nicolas Gallagher](http://nicolasgallagher.com).
@@ -90,6 +89,3 @@ This boilerplate comes with ios and android bundles already named. If you want t
 This boilerplate was made for my own convenience and is still a work in progress. Please consider it as an experiment and think twice or even trice (is that a word?) before using it in production.
 
 If you however would like to add something from yourself, please do make a PR! All contributions will be treated with great love!
-=======
-# ReactStart
->>>>>>> 8bc2daf5aac73ef9cfa5c18d85e23c53327c5cd5
