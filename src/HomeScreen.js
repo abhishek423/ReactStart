@@ -1,7 +1,9 @@
 import React from "react";
-import { View, Text, Platform, StyleSheet } from "react-native";
+import { View, Text, Platform, StyleSheet, TouchableOpacity } from "react-native";
+import Playground from "./components/Playground";
+import Parent from './components/Parent';
 
-const instructions = Platform.select({
+const instructions = Platform.select({  
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
   android:
     "Double tap R on your keyboard to reload,\n" +
@@ -9,17 +11,12 @@ const instructions = Platform.select({
   web: "Your browser will automatically refresh as soon as you save the file."
 });
 
+
 const HomeScreen = () => {
+  
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>
-        Welcome to React Native Web universal app!
-      </Text>
-      <Text style={styles.instructions}>
-        This component is shared between web and react environment. To see how
-        it works, just edit the HomeScreen.js
-      </Text>
-      <Text style={styles.instructions}>{instructions}</Text>
+      <Parent refs={"parent"}/>        
     </View>
   );
 };
@@ -40,6 +37,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "#333333",
     marginBottom: 5
+  },
+  button :{
+    backgroundColor: "black",
+    color:"white"
+    
   }
 });
 
