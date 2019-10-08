@@ -77,8 +77,9 @@ export default class Parent extends Component {
 
 const styles = StyleSheet.create({
     container: {
-      
-      justifyContent: "center",
+      width:"100%",
+      height:"100%",
+      //justifyContent: "center",
       alignItems: "center",
       backgroundColor: "pink"
     },

@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React, { Component } from 'react';
+import SocialButtonDisplay from './SocialButtonDisplay'
 
 export default class Playground extends Component {
 
@@ -51,6 +52,7 @@ export default class Playground extends Component {
                     <Text>
                         Playground
                     </Text>
+                    <SocialButtonDisplay/>
                 </View>
             )
         )
